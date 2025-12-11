@@ -16,3 +16,22 @@ body{
   padding: 10px;
   background-color: greenyellow;
 }
+
+
+css
+.blinking-background-color {
+    padding: 20px;
+    text-align: center;
+    /* Binds the animation to the element */
+    animation: color-blink 1s step-end infinite; 
+}
+
+/* Defines the animation sequence */
+@keyframes color-blink {
+    0%, 49% {
+        background-color: white; /* Color at start of cycle */
+    }
+    50%, 100% {
+        background-color: red; /* Color at middle/end of cycle */
+    }
+}

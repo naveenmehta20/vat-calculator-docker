@@ -27,7 +27,9 @@
     <title>Naveen' React App - trigger enabled</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="blinking-background-color">
+      
+      <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
      <h3>Hostname</h3>
     <p id="host"></p>
@@ -45,5 +47,6 @@
       let hostname = location.hostname;
       document.getElementById("host").innerHTML = hostname;
     </script>
+    </div>
   </body>
 </html>
