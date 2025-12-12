@@ -1,0 +1,2 @@
+image: naveenmehta20/vat:<+pipeline.sequenceId>
+replicas: 1
